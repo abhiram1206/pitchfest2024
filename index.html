@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pitchfest24</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./newimg/logo_bmu.png" alt="">
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#Benefits">BENEFITS</a></li>
+                    <li><a href="#Masterclass">MASTERCLASS</a></li>
+                    <li><a href="#Partners">PARTNERS</a></li>
+                </ul>
+            </div>
+            <div class="niti">
+                <img src="./newimg/NITI-AIM-Logo_supported-by-1-1 (1) (Small) (Small).png">
+            </div>
+            <button onclick="menu()" class="menu"><img src="./newimg/menu.png" ></button>
+        </nav>
+        <div class="menu-drop">
+            <ul class="menu-dropdown" id="menu-dropdown">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#Benefits">BENEFITS</a></li>
+                <li><a href="#Masterclass">MASTERCLASS</a></li>
+                <li><a href="#Partners">PARTNERS</a></li>
+            </ul>
+        </div>
+
+
+        <!--banner -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="./newimg/Microsite, Unstop, Email banner (Medium).png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <img src="./newimg/WhatsApp Image 2024-01-25 at 19.18.31.jpeg" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+        </div>
+
+        <!-- timer -->
+        <div class="timer">
+            <h1 id="headline">Are you Ready?</h1>
+            <div id="countdown">
+            <ul>
+                <li><span id="days"></span>days</li>
+                <li><span id="hours"></span>Hours</li>
+                <li><span id="minutes"></span>Minutes</li>
+                <li><span id="seconds"></span>Seconds</li>
+            </ul>
+            </div>
+        </div>
+
+        <!-- Register now -->
+        <!-- <div class="register-now">
+            <div class="register-now-txt">
+                <h1>Register Now</h1>
+                <h3>DEADLINE: 24th January!</h3>
+                <div class="cards">
+                    <div class="card">
+                        <img src="newimg/unstop logo.png">
+                        <img src="./newimg/Unstop QR.png">
+                        <a href="https://unstop.com/competitions/propel-pitchfest24-bml-munjal-university-bmu-gurgaon-820072?lb=YhgLZkX">Register Now</a>
+                    </div>
+                    <div class="card">
+                        <img src="newimg/F6S logo.jpeg">
+                        <img src="./newimg/F6S QR.png">
+                        <a href=" https://www.f6s.com/propel-pitchfest24/apply">Register Now</a>
+                    </div>
+                    <div class="card">
+                        <img src="newimg/accubate-logo.png" class="accubate">
+                        <img src="./newimg/accubate QR.png">
+                        <a href="https://acicbmu.accubate.app/ext/form/1461/1/appl">Register Now</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Benifits -->
+        <div class="benifits" id="Benefits">
+            <div class="benifits-txt">
+                <h1>Benefits</h1>
+            </div>
+            <div class="benifits-card">
+                <div class="benefitscontainer" >
+                    <div class="box" data-description="Invite to join the incubation support from ACIC-BMU | Propel">
+                        <img src="./newimg/Untitled design (1).png">
+                    </div>
+                    <div class="box" data-description="AWS credits worth USD 5,000 per startup">
+                        <img src="./newimg/Untitled design (5).png">
+                    </div>
+                    <div class="box" data-description="The investment chest would be  over USD 1Mn collectively from 8 top investing firms">
+                        <img src="./newimg/Your paragraph text (1).png">
+                    </div>
+                    <div class="box" data-description="Invite to apply for Startup India Seed Fund scheme managed by ACIC-BMU">
+                        <img src="./newimg/Untitled design (4).png">
+                    </div>
+                    <div class="box" data-description="ZOHO credits upto INR 1.86 Lakhs per startup">
+                        <img src="./newimg/Untitled design (7).png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Master class series -->
+        <div class="master-class" id="Masterclass">
+            <div class="master-class-txt">
+                <h1>MASTERCLASS SERIES</h1>
+                <br>
+                
+            </div>
+            <div class="master-class-series">
+                <div class="master-class-img">
+                    <img src="./newimg/MasterClass Jan 25.png" width="400" height="400">
+                </div>
+                <div class="master-class-details">
+                    <p>
+                        Pitchfest24 is proud to announce a unique masterclass led by<b> Mr. Anirudh Bagai, founder of LAWYER2CA </b>
+                        This session will allow to Master the legal and IPR background to protect your innovations,
+                        Simplify the key IPR concepts, best practises for contracts,funding and data privacy and many more.</p>
+                        
+                        <div style="text-align: left;">
+                        <b>Time : </b> 3:30 - 4:30 PM <br>
+                        <b>Date: </b>25th January 2024<br>
+                        <b>Mode :</b> Live Webinar 
+                        </div>
+                        
+                    <a href="https://forms.gle/pvj7mq5TqJdmkQJ66" class="btn">Register Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tracks -->
+        <div class="tracks">
+            <div class="track-text">
+                <h1>Tracks</h1>
+            </div>
+            <div class="track-img">
+                <img src="./newimg/20231221_214325_0000 (Medium).png" alt="">
+            </div>
+        </div>
+
+        <!-- Focus -->
+        <div class="focus">
+            <div class="focus-text">
+                <h1>Focus</h1>
+            </div>
+            <div class="focus-img">
+                <img src="./newimg/website banner focus areas (Medium).png" alt="">
+            </div>
+        </div>
+
+        <!-- partners -->
+        <div class="patners" id="Partners">
+            <div class="partner-text">
+                <h1>Partners</h1>
+            </div>
+            <div class="investing-partners">
+                <div class="ip-text">
+                    <h2>Investor Partners</h2>
+                </div>
+                <div class="ip">
+                    <div class="wrapper">
+                        <i id="left" class="fa-solid fa-angle-left" style="background-color: black; color: white;"></i>
+                        <div class="carousel">
+                          <img src="./newimg/Investing_Partners/1 (1).png" alt="img" draggable="false">
+                          <img src="./newimg/Investing_Partners/2 (1).png" alt="img" draggable="false">
+                          <img src="./newimg/Investing_Partners/3 (1).png" alt="img" draggable="false">
+                          <img src="./newimg/Investing_Partners/4 (1).png" alt="img" draggable="false">
+                          <img src="./newimg/Investing_Partners/5 (1).png" alt="img" draggable="false">
+                          <img src="./newimg/Investing_Partners/6 (1).png" alt="img" draggable="false">
+                          <img src="./newimg/Investing_Partners/7.png" alt="img" draggable="false">
+                          <img src="./newimg/Investing_Partners/8.png" alt="img" draggable="false">
+                          <img src="./newimg/Investing_Partners/9.png" alt="img" draggable="false">
+                          <img src="./newimg/Investing_Partners/10.png" alt="img" draggable="false">
+                          <img src="./newimg/Investing_Partners/11.png" alt="img" draggable="false">
+                          <img src="./newimg/Investing_Partners/12.png" alt="img" draggable="false">
+                          <img src="./newimg/Investing_Partners/Your paragraph text (2).png" alt="img" draggable="false">
+                          <img src="./newimg/Investing_Partners/Your paragraph text (5).png" alt="img" draggable="false">
+                        </div>
+                        <i id="right" class="fa-solid fa-angle-right" style="background-color: black; color: white;"></i>
+                      </div>
+                </div>
+            </div>
+            <div class="investing-partners">
+                <div class="ip-text">
+                    <h2>Eco System Partners</h2>
+                </div>
+                <div class="ip">
+                    <div class="wrapper1">
+                        <i id="left" class="fa-solid fa-angle-left" style="background-color: black; color: white;"></i>
+                        <div class="carousel1">
+                          <img src="./newimg/Ecosystem_Partners/1.png" alt="img" draggable="false">
+                          <img src="./newimg/Ecosystem_Partners/2.png" alt="img" draggable="false">
+                          <img src="./newimg/Ecosystem_Partners/3.png" alt="img" draggable="false">
+                          <img src="./newimg/Ecosystem_Partners/4.png" alt="img" draggable="false">
+                          <img src="./newimg/Ecosystem_Partners/5.png" alt="img" draggable="false">
+                          <img src="./newimg/Ecosystem_Partners/6.png" alt="img" draggable="false">
+                          <img src="./newimg/Ecosystem_Partners/7 (2).png" alt="img" draggable="false">
+                          <img src="./newimg/Ecosystem_Partners/IMG_4892.PNG" alt="img" draggable="false">
+                        </div>
+                        <i id="right" class="fa-solid fa-angle-right" style="background-color: black; color: white;"></i>
+                      </div>
+                </div>
+            </div>
+            <div class="investing-partners">
+                <div class="ip-text">
+                    <h2>Supporting Partners</h2>
+                </div>
+                <div class="ip">
+                    <div class="wrapper2">
+                        <i id="left" class="fa-solid fa-angle-left" style="background-color: black; color: white;"></i>
+                        <div class="carousel2">
+                          <img src="./newimg/Supporting_Partners/1 (2).png" alt="img" draggable="false">
+                          <img src="./newimg/Supporting_Partners/2 (2).png" alt="img" draggable="false">
+                          <img src="./newimg/Supporting_Partners/3 (2).png" alt="img" draggable="false">
+                          <img src="./newimg/Supporting_Partners/4 (2).png" alt="img" draggable="false">
+                          <img src="./newimg/Supporting_Partners/5 (2).png" alt="img" draggable="false">
+                          <img src="./newimg/Supporting_Partners/6 (2).png" alt="img" draggable="false">
+                          <img src="./newimg/Supporting_Partners/7 (1).png" alt="img" draggable="false">
+                          <img src="./newimg/Supporting_Partners/8 (1).png" alt="img" draggable="false">
+                          <img src="./newimg/Supporting_Partners/9 (1).png" alt="img" draggable="false">
+                          <img src="./newimg/Supporting_Partners/10 (1).png" alt="img" draggable="false">
+                          <img src="./newimg/Supporting_Partners/11 (1).png" alt="img" draggable="false">
+                          <img src="./newimg/Supporting_Partners/12 (1).png" alt="img" draggable="false">
+                          <img src="./newimg/Supporting_Partners/13.png" alt="img" draggable="false">
+                          <img src="./newimg/Supporting_Partners/14.png" alt="img" draggable="false">
+                          <img src="./newimg/Supporting_Partners/Your paragraph text (3).png" alt="img" draggable="false">
+                          <img src="./newimg/Supporting_Partners/Your paragraph text (4).png" alt="img" draggable="false">
+                        </div>
+                        <i id="right" class="fa-solid fa-angle-right" style="background-color: black; color: white;"></i>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- organizing team -->
+        <div class="organizing-team">
+            <div class="ot-text">
+                <h1>Team</h1>
+            </div>
+            <div class="ot">
+                <div class="wrappers1">
+                    <i id="left" class="fa-solid fa-angle-left"></i>
+                    <ul class="carousels1">
+                        <li class="card1">
+                            <div class="img"><img src="./newimg/OG/yash mittal (2).jpg" alt="img" draggable="false"></div>
+                            <h2>Yash Mittal</h2>
+                            <span>Lead Organiser</span>
+                        </li>
+                        <li class="card1" id="card1">
+                            <div class="img" id="mem1" style="display: block;text-align: center;"><img src="./newimg/OG/Naval Srivastava (Small).jpg" style="margin-top: 3%;" alt="img" draggable="false"></div>
+                            <div class="img" id="mem2" style="display: none;text-align: center;"><img src="./newimg/OG/Tanuj Bisht.jpg" style="margin-top: 3%;" alt="img" draggable="false"></div>
+                            <h2 id="mem1-name" style="display: block;">Naval Srivastava</h2>
+                            <h2 id="mem2-name" style="display: none;">Tanuj Bisht</h2>
+                            <span>Entry Management Lead</span>
+                        </li>
+                        <li class="card1">
+                            <div class="img"><img src="./newimg/OG/Vardhani Duvvuri (1).jpg" alt="img" draggable="false"></div>
+                            <h2>Vardhani Duvvuri</h2>
+                            <span>Partner and Sponsorship Lead</span>
+                        </li>
+                        <li class="card1" id="card2">
+                            <div class="img" id="mem3" style="display: block;text-align: center;"><img src="./newimg/OG/Garima Khullar (Small).jpg" style="margin-top: 3%;" alt="img" draggable="false"></div>
+                            <div class="img" id="mem4" style="display: none;text-align: center;"><img src="./newimg/OG/Smarak Routray.jpeg" style="margin-top: 3%;" alt="img" draggable="false"></div>
+                            <h2 id="mem3-name" style="display: block;">Garima Khullar</h2>
+                            <h2 id="mem4-name" style="display: none;">Smarak Routray</h2>
+                            <span>Marketing Lead</span>
+                        </li>
+                        <li class="card1" id="card3">
+                            <div class="img" id="mem5" style="display: block;text-align: center;"><img src="./newimg/OG/Nishant patel.jpg" style="margin-top: 3%;" alt="img" draggable="false"></div>
+                            <div class="img" id="mem6" style="display: none;text-align: center;"><img src="./newimg/OG/linkedin pfp (Small) (Small) (Small).png" style="margin-top: 3%;" alt="img" draggable="false"></div>
+                            <div class="img" id="mem13" style="display: none;text-align: center;"><img src="./newimg/OG/Sanskar Gupta (1).jpg" style="margin-top: 3%;" alt="img" draggable="false"></div>
+                            <h2 id="mem5-name" style="display: block;">Nishant patel</h2>
+                            <h2 id="mem6-name" style="display: none;">Garv Garg</h2>
+                            <h2 id="mem13-name" style="display: none;">Sanskar Gupta</h2>
+                            <span>Creatives lead</span>
+                        </li>
+                        <li class="card1" id="card4">
+                            <div class="img" id="mem7" style="display: block;text-align: center;"><img src="./newimg/OG/AdityaKasarla_Executiveproduction (Small).jpg" style="margin-top: 3%;" alt="img" draggable="false"></div>
+                            <div class="img" id="mem8" style="display: none;text-align: center;"><img src="./newimg/OG/WhatsApp Image 2023-12-27 at 19.08.49 (Small).jpeg" style="margin-top: 3%;" alt="img" draggable="false"></div>
+                            <h2 id="mem7-name" style="display: block;">Aditya Kasarla</h2>
+                            <h2 id="mem8-name" style="display: none;">Kushaal Aditya</h2>
+                            <span>Tech Lead</span>
+                        </li>
+                        <li class="card1" id="card5">
+                            <div class="img" id="mem9" style="display: block;text-align: center;"><img src="./newimg/OG/Dishita Munjal (Small).jpg" style="margin-top: 3%;" alt="img" draggable="false"></div>
+                            <div class="img" id="mem10" style="display: none;text-align: center;"><img src="./newimg/OG/niralee .jpeg" style="margin-top: 3%;" alt="img" draggable="false"></div>
+                            <h2 id="mem9-name" style="display: block;">Dishita Munjal</h2>
+                            <h2 id="mem10-name" style="display: none;">Niralee</h2>
+                            <span>Public Relations</span>
+                        </li>
+                        <li class="card1">
+                            <div class="img"><img src="./newimg/OG/sai prabhas (1).png" alt="img" draggable="false"></div>
+                            <h2>Sai Prabhas</h2>
+                            <span>Email Marketing Lead</span>
+                        </li>
+                        <li class="card1" id="card6">
+                            <div class="img" id="mem11" style="display: block;text-align: center;"><img src="./newimg/OG/_DSC0306 - Dushyant Singh (Small).jpg" style="margin-top: 3%;" alt="img" draggable="false"></div>
+                            <div class="img" id="mem12" style="display: none;text-align: center;"><img src="./newimg/OG/IMG_1669 - Divyansh Verma (Medium) (Small).jpeg" style="margin-top: 3%;" alt="img" draggable="false"></div>
+                            <h2 id="mem11-name" style="display: block;">Dushyant Singh</h2>
+                            <h2 id="mem12-name" style="display: none;">Divyansh Verma</h2>
+                            <span>Operations Lead </span>
+                        </li>
+                        <li class="card1">
+                            <div class="img"><img src="./newimg/OG/Siddharth Rajagopal.jpg" alt="img" draggable="false"></div>
+                            <h2>Siddharth Rajgopal</h2>
+                            <span>Content Lead</span>
+                        </li>
+                    </ul>
+                    <i id="right" class="fa-solid fa-angle-right"></i>
+                  </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="footer-text">
+                <h1>Follow us on</h1>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/acic-bmu-foundation-719561220/"><img src="./newimg/linkedin.png" alt=""></a>
+                <a href="https://www.instagram.com/propel_bmu/?igshid=1cwkqj9rfx89i&hl=en"><img src="./newimg/instagram.png" alt=""></a>
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FIncubatorPropel"><img src="./newimg/twitter.png" alt=""></a>
+                <a href="mailto:pitchfest@bmu.edu.in"><img src="./newimg/email.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
